@@ -26,6 +26,7 @@ jobs:
           - kubesphere/prometheus-operator:v0.55.1
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
           - prom/alertmanager:v0.23.0
+          - prom/node-exporter:v1.3.1
           - prom/prometheus:v2.34.0
 
     steps:
