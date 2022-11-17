@@ -13,6 +13,7 @@ jobs:
       matrix:
         image:
           - busybox:1.31.1
+          - kubesphere/kube-rbac-proxy:v0.8.0
           - kubesphere/kube-rbac-proxy:v0.11.0
           - kubesphere/notification-manager-operator:v1.4.0
           - kubesphere/kubectl:v1.22.0
@@ -21,6 +22,7 @@ jobs:
           - kubesphere/ks-console:v3.3.1
           - kubesphere/ks-controller-manager:v3.3.1
           - kubesphere/ks-apiserver:v3.3.1
+          - kubesphere/prometheus-operator:v0.55.1
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
 
     steps:
