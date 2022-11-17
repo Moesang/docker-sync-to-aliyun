@@ -22,8 +22,10 @@ jobs:
           - kubesphere/ks-console:v3.3.1
           - kubesphere/ks-controller-manager:v3.3.1
           - kubesphere/ks-apiserver:v3.3.1
+          - kubesphere/prometheus-config-reloader:v0.55.1
           - kubesphere/prometheus-operator:v0.55.1
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
+          - prom/alertmanager:v0.23.0
 
     steps:
     - name: Pull image from Docker Hub
