@@ -1,0 +1,42 @@
+name: docker-sync-to-aliyun
+
+on:
+  push:
+  workflow_dispatch: 
+
+jobs:
+  images:
+    name: 'publish-docker-action:latest'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        image:
+          - busybox:1.31.1
+          - kubesphere/kube-rbac-proxy:v0.11.0
+          - kubesphere/notification-manager-operator:v1.4.0
+          - kubesphere/kubectl:v1.22.0
+          - kubesphere/kube-state-metrics:v2.5.0
+          - kubesphere/ks-installer:v3.3.1
+          - kubesphere/ks-console:v3.3.1
+          - kubesphere/ks-controller-manager:v3.3.1
+          - kubesphere/ks-apiserver:v3.3.1
+          - mirrorgooglecontainers/defaultbackend-amd64:1.4
+
+    steps:
+    - name: Pull image from Docker Hub
+      run: docker pull ${{ matrix.image }}
+    - name: Tag image
+      id: tag-image
+      run: |
+        after_image = `echo ${{ matrix.image }} | awk -F "/" '{print $NF}'`  
+        docker tag ${{ matrix.image }} registry.cn-hangzhou.aliyuncs.com/hz-test-1/$after_image
+        echo ::set-output name = AFTER_IMAGE::$(echo $after_image)
+    - name: Login to Aliyun registry
+      uses: azure/docker-login@v1
+      with:
+        login-server: registry.cn-hangzhou.aliyuncs.com
+        username: ${{ secrets.ACR_USERNAME }}
+        password: ${{ secrets.ACR_PASSWORD }}  
+    - name: Push image to Aliyun
+      run: docker push registry.cn-hangzhou.aliyuncs.com/hz-test-1/${{ steps.tag-image.outputs.AFTER_IMAGE }}
