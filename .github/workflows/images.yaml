@@ -29,9 +29,9 @@ jobs:
     - name: Tag image
       id: tag-image
       run: |
-        after_image = `echo ${{ matrix.image }} | awk -F "/" '{print $NF}'`  
+        after_image=`echo ${{ matrix.image }} | awk -F "/" '{print $NF}'`  
         docker tag ${{ matrix.image }} registry.cn-hangzhou.aliyuncs.com/hz-test-1/$after_image
-        echo ::set-output name = AFTER_IMAGE::$(echo $after_image)
+        echo ::set-output name=AFTER_IMAGE::$(echo $after_image)
     - name: Login to Aliyun registry
       uses: azure/docker-login@v1
       with:
