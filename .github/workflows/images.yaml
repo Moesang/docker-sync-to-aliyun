@@ -13,6 +13,7 @@ jobs:
       matrix:
         image:
           - busybox:1.31.1
+          - csiplugin/snapshot-controller:v4.0.0
           - kubeedge/cloudcore:v1.9.2
           - kubesphere/edgeservice:v0.2.0
           - kubesphere/kube-rbac-proxy:v0.8.0
