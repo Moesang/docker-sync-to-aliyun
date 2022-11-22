@@ -25,8 +25,10 @@ jobs:
           - kubesphere/ks-console:v3.3.1
           - kubesphere/ks-controller-manager:v3.3.1
           - kubesphere/ks-apiserver:v3.3.1
+          - kubesphere/openelb:v0.4.4
           - kubesphere/prometheus-config-reloader:v0.55.1
           - kubesphere/prometheus-operator:v0.55.1
+          - kubespheredev/kube-webhook-certgen:v1.1.1
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
