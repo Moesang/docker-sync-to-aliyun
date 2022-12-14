@@ -15,6 +15,7 @@ jobs:
           - busybox:1.31.1
           - csiplugin/snapshot-controller:v4.0.0
           - kubeedge/cloudcore:v1.9.2
+          - kubeedge/csidriver:v1.1.0
           - kubesphere/edgeservice:v0.2.0
           - kubesphere/kube-rbac-proxy:v0.8.0
           - kubesphere/kube-rbac-proxy:v0.11.0
@@ -33,6 +34,10 @@ jobs:
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
           - prom/prometheus:v2.34.0
+          - quay.io/k8scsi/csi-attacher:v1.1.1
+          - quay.io/k8scsi/csi-node-driver-registrar:v1.1.0
+          - quay.io/k8scsi/csi-provisioner:v1.2.1
+          - quay.io/k8scsi/hostpathplugin:v1.1.0
 
     steps:
     - name: Pull image from Docker Hub
