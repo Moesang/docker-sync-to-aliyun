@@ -18,6 +18,7 @@ jobs:
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
           - k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0
           - k8s.gcr.io/sig-storage/hostpathplugin:v1.7.3
+          - k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
           - kubeedge/cloudcore:v1.9.2
           - kubeedge/csidriver:v1.1.0
           - kubesphere/edgeservice:v0.2.0
