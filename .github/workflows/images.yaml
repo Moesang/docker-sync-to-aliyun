@@ -16,6 +16,7 @@ jobs:
           - csiplugin/snapshot-controller:v4.0.0
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
+          - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
           - k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0
           - k8s.gcr.io/sig-storage/livenessprobe:v2.3.0
@@ -39,7 +40,6 @@ jobs:
           - kubespheredev/kube-webhook-certgen:v1.1.1
           - mcr.microsoft.com/k8s/csi/nfs-csi:latest
           - mcr.microsoft.com/k8s/csi/nfs-csi:v3.1.0
-          - mcr.microsoft.com/k8s/csi/nfs-csi:v4.1.0
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
