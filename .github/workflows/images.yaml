@@ -16,6 +16,7 @@ jobs:
           - csiplugin/snapshot-controller:v4.0.0
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
+          - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
           - k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0
           - k8s.gcr.io/sig-storage/livenessprobe:v2.3.0
           - k8s.gcr.io/sig-storage/hostpathplugin:v1.7.3
