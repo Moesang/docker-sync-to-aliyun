@@ -38,6 +38,8 @@ jobs:
           - kubesphere/prometheus-operator:v0.55.1
           - kubespheredev/kube-webhook-certgen:v1.1.1
           - mcr.microsoft.com/k8s/csi/nfs-csi:latest
+          - mcr.microsoft.com/k8s/csi/nfs-csi:v3.1.0
+          - mcr.microsoft.com/k8s/csi/nfs-csi:v4.1.0
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
