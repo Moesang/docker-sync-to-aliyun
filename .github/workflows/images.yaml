@@ -24,6 +24,7 @@ jobs:
           - k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
           - kubeedge/cloudcore:v1.9.2
           - kubeedge/csidriver:v1.1.0
+          - kubeedge/csidriver:v1.9.2
           - kubesphere/edgeservice:v0.2.0
           - kubesphere/kube-rbac-proxy:v0.8.0
           - kubesphere/kube-rbac-proxy:v0.11.0
