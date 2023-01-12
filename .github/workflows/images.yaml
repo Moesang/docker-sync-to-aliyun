@@ -13,6 +13,8 @@ jobs:
       matrix:
         image:
           - busybox:1.31.1
+          - bitnami/wordpress:5.9.2-debian-10-r26
+          - bitnami/wordpress:6.1.1-debian-11-r15
           - csiplugin/snapshot-controller:v4.0.0
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
