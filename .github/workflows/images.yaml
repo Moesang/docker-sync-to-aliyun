@@ -13,6 +13,7 @@ jobs:
       matrix:
         image:
           - busybox:1.31.1
+          - bitnami/apache-exporter:0.11.0-debian-11-r73
           - bitnami/wordpress:5.9.2-debian-10-r26
           - bitnami/wordpress:6.1.1-debian-11-r15
           - csiplugin/snapshot-controller:v4.0.0
