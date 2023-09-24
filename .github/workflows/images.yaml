@@ -12,6 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         image:
+          - aledbf/kube-keepalived-vip:0.35
           - busybox:1.31.1
           - bitnami/apache-exporter:0.11.0-debian-11-r73
           - bitnami/wordpress:5.9.2-debian-10-r26
