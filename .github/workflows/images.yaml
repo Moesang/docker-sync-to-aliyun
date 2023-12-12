@@ -19,6 +19,7 @@ jobs:
           - bitnami/wordpress:6.1.1-debian-11-r15
           - csiplugin/snapshot-controller:v4.0.0
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
+          - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0
