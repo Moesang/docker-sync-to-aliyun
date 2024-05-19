@@ -48,6 +48,7 @@ jobs:
           - mcr.microsoft.com/k8s/csi/nfs-csi:latest
           - mcr.microsoft.com/k8s/csi/nfs-csi:v3.1.0
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
+          - mongo:5.0.6
           - nginx:stable-alpine3.17
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
