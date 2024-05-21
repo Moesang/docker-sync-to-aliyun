@@ -59,6 +59,7 @@ jobs:
           - quay.io/k8scsi/csi-provisioner:v1.2.1
           - quay.io/k8scsi/hostpathplugin:v1.1.0
           - registry.k8s.io/dns/k8s-dns-node-cache:1.22.20
+          - vulhub/redis:5.0.7
 
     steps:
     - name: Pull image from Docker Hub
