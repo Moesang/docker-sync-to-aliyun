@@ -14,6 +14,7 @@ jobs:
         image:
           - aledbf/kube-keepalived-vip:0.35
           - alpine:3.15
+          - alpine:3.18
           - busybox:1.31.1
           - bitnami/apache-exporter:0.11.0-debian-11-r73
           - bitnami/redis:7.2.1-debian-11-r0
