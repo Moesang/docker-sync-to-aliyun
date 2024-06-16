@@ -25,6 +25,7 @@ jobs:
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
           - golang:1.20
           - gotafire/kube-rbac-proxy:v0.13.0
+          - gotafire/kube-state-metrics:v2.3.0
           - gotafire/node-exporter:v1.3.1
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
@@ -69,6 +70,7 @@ jobs:
           - registry.k8s.io/ingress-nginx/controller:v1.10.0
           - registry.k8s.io/ingress-nginx/controller:v1.10.1
           - registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.0
+          - victoriametrics/operator:v0.25.1
           - vulhub/redis:5.0.7
 
     steps:
