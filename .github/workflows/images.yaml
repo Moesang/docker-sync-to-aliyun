@@ -28,7 +28,7 @@ jobs:
           - gotafire/kube-rbac-proxy:v0.13.0
           - gotafire/kube-state-metrics:v2.3.0
           - gotafire/node-exporter:v1.3.1
-          - grafana:8.5.14
+          - grafana/grafana:8.5.14
           - jimmidyson/configmap-reload:v0.3.0
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
           - k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
