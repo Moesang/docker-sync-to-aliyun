@@ -64,6 +64,9 @@ jobs:
           - mongo:5.0.6
           - mysql:5.7
           - nginx:stable-alpine3.17
+          - openebs/node-disk-manager:2.1.0
+          - openebs/node-disk-operator:2.1.0
+          - openebs/provisioner-localpv:3.5.0
           - postgres:14-alpine
           - postgres:15-alpine
           - postgres:16-alpine
