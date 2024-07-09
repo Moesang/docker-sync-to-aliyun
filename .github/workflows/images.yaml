@@ -75,6 +75,7 @@ jobs:
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
           - prom/prometheus:v2.34.0
+          - quay.io/argoproj/argocd:v2.8.20
           - quay.io/external_storage/nfs-client-provisioner:v3.1.0-k8s1.11
           - quay.io/k8scsi/csi-attacher:v1.1.1
           - quay.io/k8scsi/csi-node-driver-registrar:v1.1.0
