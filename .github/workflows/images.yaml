@@ -44,6 +44,7 @@ jobs:
           - kubeedge/csidriver:v1.1.0
           - kubeedge/csidriver:v1.9.2
           - kubeedge/edgemesh-agent:v1.17.0
+          - kubeedge/installation-package:v1.15.2
           - kubeedge/iptables-manager:v1.15.2
           - kubesphere/edgeservice:v0.2.0
           - kubesphere/kube-rbac-proxy:v0.8.0
