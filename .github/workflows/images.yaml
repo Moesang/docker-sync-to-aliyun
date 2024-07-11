@@ -22,6 +22,7 @@ jobs:
           - bitnami/wordpress:5.9.2-debian-10-r26
           - bitnami/wordpress:6.1.1-debian-11-r15
           - csiplugin/snapshot-controller:v4.0.0
+          - dn11exp/proxy-miner-exp:1.0.0a10
           - feiyu563/prometheus-alert:v4.9
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
