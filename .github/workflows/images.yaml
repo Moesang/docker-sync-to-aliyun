@@ -24,6 +24,7 @@ jobs:
           - csiplugin/snapshot-controller:v4.0.0
           - dn11exp/proxy-miner-exp:1.0.0a10
           - dn11exp/proxy-miner-exp:1.0.0a18
+          - dn11exp/proxy-miner-exp:1.0.0a20
           - feiyu563/prometheus-alert:v4.9
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
