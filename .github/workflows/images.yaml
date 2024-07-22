@@ -27,6 +27,7 @@ jobs:
           - dn11exp/proxy-miner-exp:1.0.0a20
           - feiyu563/prometheus-alert:v4.9
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
+          - ghcr.io/actions/gha-runner-scale-set-controller:0.9.2
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
           - golang:1.20
           - gotafire/kube-rbac-proxy:v0.13.0
