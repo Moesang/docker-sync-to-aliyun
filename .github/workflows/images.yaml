@@ -15,6 +15,7 @@ jobs:
           - aledbf/kube-keepalived-vip:0.35
           - alpine:3.15
           - alpine:3.18
+          - alpine:3.21
           - busybox:1.31.1
           - bitnami/apache-exporter:0.11.0-debian-11-r73
           - bitnami/postgresql:14.5.0-debian-11-r35
@@ -26,6 +27,19 @@ jobs:
           - dn11exp/proxy-miner-exp:1.0.0a18
           - dn11exp/proxy-miner-exp:1.0.0a20
           - feiyu563/prometheus-alert:v4.9
+          - gcr.io/k8s-prow/clonerefs:latest
+          - gcr.io/k8s-prow/crier:latest
+          - gcr.io/k8s-prow/deck:latest
+          - gcr.io/k8s-prow/entrypoint:latest
+          - gcr.io/k8s-prow/ghproxy:latest
+          - gcr.io/k8s-prow/hook:latest
+          - gcr.io/k8s-prow/horologium:latest
+          - gcr.io/k8s-prow/initupload:latest
+          - gcr.io/k8s-prow/prow-controller-manager:latest
+          - gcr.io/k8s-prow/sidecar:latest
+          - gcr.io/k8s-prow/sinker:latest
+          - gcr.io/k8s-prow/status-reconciler:latest
+          - gcr.io/k8s-prow/tide:latest
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
           - ghcr.io/actions/gha-runner-scale-set-controller:0.9.2
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
@@ -66,6 +80,7 @@ jobs:
           - kubespheredev/kube-webhook-certgen:v1.1.1
           - mcr.microsoft.com/k8s/csi/nfs-csi:latest
           - mcr.microsoft.com/k8s/csi/nfs-csi:v3.1.0
+          - minio/minio:latest
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
           - mongo:5.0.6
           - mysql:5.7
