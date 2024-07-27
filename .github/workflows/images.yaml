@@ -15,7 +15,7 @@ jobs:
           - aledbf/kube-keepalived-vip:0.35
           - alpine:3.15
           - alpine:3.18
-          - alpine:3.21
+          - alpine:3.20
           - busybox:1.31.1
           - bitnami/apache-exporter:0.11.0-debian-11-r73
           - bitnami/postgresql:14.5.0-debian-11-r35
