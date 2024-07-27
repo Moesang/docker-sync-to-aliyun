@@ -39,7 +39,7 @@ jobs:
           - gcr.io/k8s-prow/sidecar:v20240723-dbbd2d86b
           - gcr.io/k8s-prow/sinker:v20240723-dbbd2d86b
           - gcr.io/k8s-prow/status-reconciler:v20240723-dbbd2d86b
-          - gcr.io/k8s-prow/tide:v20240723-dbbd2d86best
+          - gcr.io/k8s-prow/tide:v20240723-dbbd2d86b
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
           - ghcr.io/actions/gha-runner-scale-set-controller:0.9.2
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
