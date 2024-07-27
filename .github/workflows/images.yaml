@@ -27,19 +27,19 @@ jobs:
           - dn11exp/proxy-miner-exp:1.0.0a18
           - dn11exp/proxy-miner-exp:1.0.0a20
           - feiyu563/prometheus-alert:v4.9
-          - gcr.io/k8s-prow/clonerefs:latest
-          - gcr.io/k8s-prow/crier:latest
-          - gcr.io/k8s-prow/deck:latest
-          - gcr.io/k8s-prow/entrypoint:latest
-          - gcr.io/k8s-prow/ghproxy:latest
-          - gcr.io/k8s-prow/hook:latest
-          - gcr.io/k8s-prow/horologium:latest
-          - gcr.io/k8s-prow/initupload:latest
-          - gcr.io/k8s-prow/prow-controller-manager:latest
-          - gcr.io/k8s-prow/sidecar:latest
-          - gcr.io/k8s-prow/sinker:latest
-          - gcr.io/k8s-prow/status-reconciler:latest
-          - gcr.io/k8s-prow/tide:latest
+          - gcr.io/k8s-prow/clonerefs:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/crier:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/deck:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/entrypoint:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/ghproxy:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/hook:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/horologium:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/initupload:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/prow-controller-manager:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/sidecar:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/sinker:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/status-reconciler:v20240723-dbbd2d86b
+          - gcr.io/k8s-prow/tide:latv20240723-dbbd2d86best
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
           - ghcr.io/actions/gha-runner-scale-set-controller:0.9.2
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
