@@ -29,6 +29,7 @@ jobs:
           - dn11exp/proxy-miner-exp:1.0.0a22
           - dn11exp/proxy-miner-exp:1.0.0a23
           - dn11exp/proxy-miner-exp:1.0.0a24
+          - dn11exp/proxy-miner-exp:1.0.0a27
           - feiyu563/prometheus-alert:v4.9
           - gcr.io/k8s-prow/clonerefs:v20240723-dbbd2d86b
           - gcr.io/k8s-prow/crier:v20240723-dbbd2d86b
