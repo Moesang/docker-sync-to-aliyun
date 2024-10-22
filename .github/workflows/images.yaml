@@ -120,6 +120,7 @@ jobs:
           - victoriametrics/vmagent:v1.77.1
           - victoriametrics/vmalert:v1.76.0
           - vulhub/redis:5.0.7
+          - yisier1/nps:v0.26.19
 
     steps:
     - name: Pull image from Docker Hub
