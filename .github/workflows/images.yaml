@@ -103,6 +103,7 @@ jobs:
           - postgres:14-alpine
           - postgres:15-alpine
           - postgres:16-alpine
+          - postgres:17-alpine
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
           - prom/prometheus:v2.34.0
@@ -113,6 +114,7 @@ jobs:
           - quay.io/k8scsi/csi-provisioner:v1.2.1
           - quay.io/k8scsi/hostpathplugin:v1.1.0
           - redis:7
+          - redis:7-alpine
           - registry.k8s.io/dns/k8s-dns-node-cache:1.22.20
           - registry.k8s.io/ingress-nginx/controller:v1.10.0
           - registry.k8s.io/ingress-nginx/controller:v1.10.1
