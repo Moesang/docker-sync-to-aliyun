@@ -95,6 +95,7 @@ jobs:
           - mirrorgooglecontainers/defaultbackend-amd64:1.4
           - mongo:5.0.6
           - mysql:5.7
+          - n8nio/n8n:1.58.2
           - nginx:stable-alpine3.17
           - openebs/node-disk-manager:2.1.0
           - openebs/node-disk-operator:2.1.0
