@@ -50,6 +50,8 @@ jobs:
           - gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.0
           - ghcr.io/actions/gha-runner-scale-set-controller:0.9.2
           - ghcr.io/actions/gha-runner-scale-set-controller:0.9.3
+          - ghcr.io/actions/gha-runner-scale-set-controller:0.10.0
+          - ghcr.io/actions/gha-runner-scale-set-controller:0.10.1
           - ghcr.io/falcondev-oss/github-actions-cache-server:2.1.8
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
           - golang:1.20
