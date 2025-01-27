@@ -53,6 +53,7 @@ jobs:
           - ghcr.io/actions/gha-runner-scale-set-controller:0.10.0
           - ghcr.io/actions/gha-runner-scale-set-controller:0.10.1
           - ghcr.io/falcondev-oss/github-actions-cache-server:2.1.8
+          - ghcr.io/falcondev-oss/github-actions-cache-server:3.1.0
           - ghcr.io/falcondev-oss/github-actions-cache-server:4.0.2
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
           - golang:1.20
