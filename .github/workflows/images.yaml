@@ -97,6 +97,19 @@ jobs:
           - kubesphere/prometheus-operator:v0.55.1
           - kubespheredev/kube-webhook-certgen:v1.1.1
           - kubespheredev/metrics-server:v0.4.1
+          - longhornio/longhorn-engine:v1.7.3
+          - longhornio/longhorn-manager:v1.7.3
+          - longhornio/longhorn-ui:v1.7.3
+          - longhornio/longhorn-instance-manager:v1.7.3
+          - longhornio/longhorn-share-manager:v1.7.3
+          - longhornio/longhorn-image-manager:v1.7.3
+          - longhornio/longhorn-bundle-kit:v1.7.3
+          - longhornio/csi-attacher:v4.8.0
+          - longhornio/csi-provisioner:v4.0.1-20250204
+          - longhornio/csi-node-driver-registrar:v2.13.0
+          - longhornio/csi-resizer:v1.13.1
+          - longhornio/csi-snapshotter:v7.0.2-20250204
+          - longhornio/livenessprobe:v2.15.0
           - mcr.microsoft.com/k8s/csi/nfs-csi:latest
           - mcr.microsoft.com/k8s/csi/nfs-csi:v3.1.0
           - minio/minio:latest
