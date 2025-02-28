@@ -102,8 +102,8 @@ jobs:
           - longhornio/longhorn-ui:v1.7.3
           - longhornio/longhorn-instance-manager:v1.7.3
           - longhornio/longhorn-share-manager:v1.7.3
-          - longhornio/longhorn-image-manager:v1.7.3
-          - longhornio/longhorn-bundle-kit:v1.7.3
+          - longhornio/backing-image-manager:v1.7.3
+          - longhornio/support-bundle-kit:v0.0.51
           - longhornio/csi-attacher:v4.8.0
           - longhornio/csi-provisioner:v4.0.1-20250204
           - longhornio/csi-node-driver-registrar:v2.13.0
