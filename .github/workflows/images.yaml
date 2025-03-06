@@ -97,6 +97,7 @@ jobs:
           - kubesphere/prometheus-operator:v0.55.1
           - kubespheredev/kube-webhook-certgen:v1.1.1
           - kubespheredev/metrics-server:v0.4.1
+          - liangjw/kube-webhook-certgen:v1.1.1
           - longhornio/longhorn-engine:v1.7.3
           - longhornio/longhorn-manager:v1.7.3
           - longhornio/longhorn-ui:v1.7.3
@@ -126,6 +127,7 @@ jobs:
           - postgres:15-alpine
           - postgres:16-alpine
           - postgres:17-alpine
+          - projecthami/hami:v2.5.0
           - prom/alertmanager:v0.23.0
           - prom/node-exporter:v1.3.1
           - prom/prometheus:v2.34.0
