@@ -151,6 +151,7 @@ jobs:
           - victoriametrics/victoria-metrics:v1.77.1
           - victoriametrics/vmagent:v1.77.1
           - victoriametrics/vmalert:v1.76.0
+          - vllm/vllm-openai:v0.7.3
           - vulhub/redis:5.0.7
           - yisier1/nps:v0.26.19
 
