@@ -78,11 +78,16 @@ jobs:
           - kubeedge/cloudcore:v1.9.2
           - kubeedge/cloudcore:v1.15.2
           - kubeedge/cloudcore:v1.17.0
+          - kubeedge/cloudcore:v1.17.5
           - kubeedge/csidriver:v1.1.0
           - kubeedge/csidriver:v1.9.2
           - kubeedge/edgemesh-agent:v1.17.0
           - kubeedge/installation-package:v1.15.2
+          - kubeedge/installation-package:v1.17.0
+          - kubeedge/installation-package:v1.17.5
           - kubeedge/iptables-manager:v1.15.2
+          - kubeedge/iptables-manager:v1.17.0
+          - kubeedge/iptables-manager:v1.17.5
           - kubesphere/edgeservice:v0.2.0
           - kubesphere/kube-rbac-proxy:v0.8.0
           - kubesphere/kube-rbac-proxy:v0.11.0
