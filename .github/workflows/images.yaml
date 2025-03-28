@@ -79,6 +79,8 @@ jobs:
           - kubeedge/cloudcore:v1.15.2
           - kubeedge/cloudcore:v1.17.0
           - kubeedge/cloudcore:v1.17.5
+          - kubeedge/cloudcore:v1.18.3
+          - kubeedge/cloudcore:v1.19.2
           - kubeedge/csidriver:v1.1.0
           - kubeedge/csidriver:v1.9.2
           - kubeedge/edgemesh-agent:v1.17.0
