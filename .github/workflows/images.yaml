@@ -156,6 +156,7 @@ jobs:
           - registry.k8s.io/pause:3.9
           - registry.suse.com/bci/bci-base:15.5
           - tile38/tile38:1.34.1
+          - ubuntu:22.04
           - victoriametrics/operator:v0.25.1
           - victoriametrics/victoria-metrics:v1.77.1
           - victoriametrics/vmagent:v1.77.1
