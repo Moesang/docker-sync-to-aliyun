@@ -67,6 +67,7 @@ jobs:
           - goharbor/harbor-jobservice:v2.13.0
           - goharbor/harbor-portal:v2.13.0
           - goharbor/harbor-registryctl:v2.13.0
+          - goharbor/nginx-photon:v2.13.0
           - goharbor/registry-photon:v2.13.0
           - golang:1.20
           - gotafire/kube-rbac-proxy:v0.13.0
