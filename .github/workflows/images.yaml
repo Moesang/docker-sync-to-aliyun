@@ -152,10 +152,18 @@ jobs:
           - prom/prometheus:v2.34.0
           - quay.io/argoproj/argocd:v2.8.20
           - quay.io/external_storage/nfs-client-provisioner:v3.1.0-k8s1.11
+          - quay.io/jetstack/cert-manager-acmesolver:v1.12.17
+          - quay.io/jetstack/cert-manager-acmesolver:v1.16.5
           - quay.io/jetstack/cert-manager-acmesolver:v1.17.2
+          - quay.io/jetstack/cert-manager-cainjector:v1.12.17
+          - quay.io/jetstack/cert-manager-cainjector:v1.16.5
           - quay.io/jetstack/cert-manager-cainjector:v1.17.2
           - quay.io/jetstack/cert-manager-controller:v1.17.2
+          - quay.io/jetstack/cert-manager-startupapicheck:v1.12.17
+          - quay.io/jetstack/cert-manager-startupapicheck:v1.16.5
           - quay.io/jetstack/cert-manager-startupapicheck:v1.17.2
+          - quay.io/jetstack/cert-manager-webhook:v1.12.17
+          - quay.io/jetstack/cert-manager-webhook:v1.16.5
           - quay.io/jetstack/cert-manager-webhook:v1.17.2
           - quay.io/kubevirt/macvtap-cni:v0.12.2
           - quay.io/k8scsi/csi-attacher:v1.1.1
