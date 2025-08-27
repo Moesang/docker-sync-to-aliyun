@@ -67,6 +67,8 @@ jobs:
           - ghcr.io/falcondev-oss/github-actions-cache-server:4.0.3
           - ghcr.io/falcondev-oss/github-actions-cache-server:5.0.0
           - ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot-thick
+          - ghcr.io/k8snetworkplumbingwg/multus-cni:v4.2.2
+          - ghcr.io/k8snetworkplumbingwg/multus-cni:v4.2.2-thick
           - goharbor/harbor-core:v2.13.0
           - goharbor/harbor-exporter:v2.13.0
           - goharbor/harbor-jobservice:v2.13.0
