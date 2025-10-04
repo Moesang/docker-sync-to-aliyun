@@ -143,6 +143,7 @@ jobs:
           - mongo:5.0.6
           - mysql:5.7
           - n8nio/n8n:1.58.2
+          - n8nio/n8n:1.112.0
           - nginx:stable-alpine3.17
           - ollama/ollama:0.5.13
           - openebs/node-disk-manager:2.1.0
