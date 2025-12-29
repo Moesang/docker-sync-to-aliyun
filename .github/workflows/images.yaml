@@ -28,6 +28,7 @@ jobs:
           - calico/cni:v3.23.2
           - calico/kube-controllers:v3.23.2
           - calico/node:v3.23.2
+          - cancergary/lark-url-preview-public-next:latest
           - csiplugin/snapshot-controller:v4.0.0
           - dn11exp/proxy-miner-exp:1.0.0a10
           - dn11exp/proxy-miner-exp:1.0.0a18
