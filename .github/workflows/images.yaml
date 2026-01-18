@@ -12,6 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         image:
+          - 1panel/maxkb:v2.5.0
           - aledbf/kube-keepalived-vip:0.35
           - alpine:3.15
           - alpine:3.18
