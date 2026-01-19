@@ -84,6 +84,7 @@ jobs:
           - gotafire/node-exporter:v1.3.1
           - grafana/grafana:8.5.14
           - imroc/cert-manager-webhook-dnspod:1.5.2
+          - jackyin0822/musebot:v1.0.38
           - jetbrainsinfra/jq
           - jimmidyson/configmap-reload:v0.3.0
           - k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
