@@ -38,6 +38,7 @@ jobs:
           - dn11exp/proxy-miner-exp:1.0.0a23
           - dn11exp/proxy-miner-exp:1.0.0a24
           - dn11exp/proxy-miner-exp:1.0.0a27
+          - dnknth/ldap-ui:0.11.0-x86_64
           - dolibarr/dolibarr:21.0.1
           - feiyu563/prometheus-alert:v4.9
           - gcr.io/k8s-prow/clonerefs:v20240723-dbbd2d86b
@@ -154,6 +155,8 @@ jobs:
           - openebs/node-disk-operator:2.1.0
           - openebs/provisioner-localpv:3.5.0
           - openebs/linux-utils:3.5.0
+          - osixia/openldap:1.5.0
+          - osixia/phpldapadmin:0.9.0
           - postgres:14-alpine
           - postgres:15-alpine
           - postgres:16-alpine
