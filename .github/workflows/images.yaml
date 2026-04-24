@@ -201,6 +201,7 @@ jobs:
           - ubuntu:22.04
           - victoriametrics/operator:v0.25.1
           - victoriametrics/victoria-metrics:v1.77.1
+          - victoriametrics/victoria-metrics:v1.101.0
           - victoriametrics/vmagent:v1.77.1
           - victoriametrics/vmagent:v1.101.0
           - victoriametrics/vmalert:v1.76.0
